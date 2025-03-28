@@ -181,6 +181,14 @@ nav {
 
     & h1 { padding-left: 3px; }
 
+    & .date { /* TEMPORARY */
+        padding: 0 0 3px 1px;
+        justify-self: center;
+        &::selection {
+            color: unset;
+        }
+    }
+
     & a {
         margin-top: 8px;
         display: block;
