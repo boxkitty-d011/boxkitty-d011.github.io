@@ -15,7 +15,7 @@ const render404 = () => {
 
 //---------------------------------- Router ----------------------------------//
 const pageRoutes = {
-    "/presskit": renderPress,
+    "/presskit": renderPresskit,
 }
 
 const route = () => {
