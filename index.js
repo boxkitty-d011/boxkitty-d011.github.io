@@ -7,7 +7,7 @@ window.addEventListener("resize", calcEvenpad);
 window.addEventListener("load", calcEvenpad);
 
 //---------------------------------- Pages -----------------------------------//
-import { render as renderPresskit } from "/pages/press.js"
+import { render as renderPresskit } from "/pages/presskit.js"
 const render404 = () => {
     document.querySelector("title").innerText = "d011 // 404";
     document.querySelector("main").innerHTML = `<h1 class="evenpad">404</h1>`;
