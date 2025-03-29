@@ -9,7 +9,7 @@ export const render = () => {
     const anchors = Object.entries(links).map(([txt, href]) =>
         `<a href="${href}" style="display:block;">&gt; ${txt}</a>`
     ).join("");
-    document.querySelector("title").innerText = "d011 // press";
+    document.querySelector("title").innerText = "d011 // presskit";
     document.querySelector("main").innerHTML = `
         <div id="landing">
             <h1 class="evenpad" style="justify-self:center">press</h1>

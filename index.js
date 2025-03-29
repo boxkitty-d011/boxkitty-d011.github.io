@@ -7,11 +7,11 @@ window.addEventListener("resize", calcEvenpad);
 window.addEventListener("load", calcEvenpad);
 
 //---------------------------------- Pages -----------------------------------//
-import { render as renderPress } from "/pages/press.js"
+import { render as renderPresskit } from "/pages/press.js"
 
 //---------------------------------- Router ----------------------------------//
 const pageRoutes = {
-    "/press": renderPress,
+    "/presskit": renderPress,
 }
 
 const route = () => {
